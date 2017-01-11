@@ -11,3 +11,10 @@ Regain control of your life. Remove seeing the inaccurate active status of the p
 People who want to feel empowered again in their own lives, who trust their SOs and friends, but still feel uncomfortable using Facebook and Messenger from their Active status.
 
 Give it a try. I hope this is useful to you.
+
+## Development
+1. Clone or Fork this repo
+2. Open it in chrome://extensions
+3. Check "developer mode"
+4. Select "Load unpacked extension" and select the directory
+5. Open Messenger / Facebook and enjoy!
