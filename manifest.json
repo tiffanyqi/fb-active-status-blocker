@@ -4,6 +4,7 @@
   "name": "Facebook and Messenger Active Status Blocker",
   "description": "Regain control of your life. Remove seeing the inaccurate active status of the person you're chatting with Facebook and Messenger.",
   "version": "1.0",
+  "homepage_url": "https://github.com/tiffanyqi/fb-active-status-blocker",
 
   "browser_action": {
     "default_icon": "16.png",
@@ -11,12 +12,14 @@
   },
   "permissions": [
     "activeTab",
-    "https://ajax.googleapis.com/"
+    "https://ajax.googleapis.com/",
+    "contextMenus"
   ],
   "content_scripts": [
     {
       "matches": ["https://www.messenger.com/*", "https://www.facebook.com/*"], 
-      "css" : ["style.css"]
+      "css" : ["style.css"],
+      "run_at": "document_start"
     }
   ],
   "icons": {
